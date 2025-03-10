@@ -39,14 +39,3 @@ As part of this project, this module is responsible for managing the assignment 
   python -m uvicorn main:app --reload
 5. Test the API
   Open your browser and go to: http://127.0.0.1:8000/docs
-
-
-Copy
-Edit
-
-Edit
-
-env
-Copy
-Edit
-
