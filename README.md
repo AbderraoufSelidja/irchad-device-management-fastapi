@@ -1,1 +1,0 @@
-# irchad-device-management-fastapi
