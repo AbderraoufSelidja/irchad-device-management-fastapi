@@ -26,8 +26,9 @@ As part of this project, this module is responsible for managing the assignment 
 1. Clone the repository:  
    - git clone git@github.com:AbderraoufSelidja/irchad-device-management-fastapi.git
    - cd irchad-device-management
-2. Create a virtual environment and install dependencies:
-   - python -m venv venv.␣␣
+2. Create a virtual environment and activate it and install dependencies:
+   - python -m venv venv.
+   - .\venv\Scripts\activate
    - pip install -r requirements.txt
 3. Configure the database by updating the DATABASE_URL in db/db_setup.py:
   - Go to db/db_setup.py
