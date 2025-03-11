@@ -26,16 +26,16 @@ As part of this project, this module is responsible for managing the assignment 
 1. Clone the repository:  
    git clone git@github.com:AbderraoufSelidja/irchad-device-management-fastapi.git.␣␣
    cd irchad-device-management.␣␣
-2. Create a virtual environment and install dependencies:.␣␣
+2. Create a virtual environment and install dependencies:.
    python -m venv venv.␣␣
    pip install -r requirements.txt.␣␣
-3. Configure the database by updating the DATABASE_URL in db/db_setup.py:.␣␣
+3. Configure the database by updating the DATABASE_URL in db/db_setup.py:
   Go to db/db_setup.py.␣␣
   Modify the following variables with your database credentials:.␣␣
     DATABASE_URL=postgresql://user:password@localhost/irchad_db.␣␣
     SECRET_KEY=your_secret_key.␣␣
     alembic upgrade head.␣␣
-4. Run the backend server.␣␣
+4. Run the backend server
   python -m uvicorn main:app --reload.␣␣
-5. Test the API.␣␣
+5. Test the API
   Open your browser and go to: http://127.0.0.1:8000/docs.␣␣
